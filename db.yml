@@ -1,0 +1,13 @@
+Article:
+   fields:
+       title: varchar(50)
+       text: text
+
+Category:
+   fields:
+       title: varchar(50)
+
+Item:
+   fields:
+       name: varchar(50)
+       category: varchar(50)
